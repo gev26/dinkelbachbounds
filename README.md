@@ -18,3 +18,10 @@ We separate the scripts into three categories:
 
 ## How to run the code
 Each runner script starts from the folder that contains the scripts, e.g. `python run_section8.py`. All runner scripts create and write to `../results/`, a path relative to the *working* directory. Note that the data paths are computer-dependent, stored in the data-preparation modules (`DATA_PATH`, `CSV`), and therefore must be edited once the files are run on another computer. Approximate running times on a M1 MacBook Pro: `run_section8.py` about 30 minutes (of which Table 1 bands with Lee's 28 covariates take about 23), `run_table2.py` under one minute, `run_deworming.py` about 40 seconds.
+
+## References
+Victoria Baranov, Sonia Bhalotra, Pietro Biroli, and Joanna Maselko. *Maternal depression, women’s empowerment, and parental investment: Evidence from a randomized controlled trial.* American Economic Review, 110 (3):824–59, March 2020.
+
+David S. Lee. *Training, wages, and sample selection: Estimating sharp bounds on treatment effects.* Review of Economic Studies, 76(3):1071–1102, 2009.
+
+Edward Miguel and Michael Kremer. *Worms: Identifying impacts on education and health in the presence of treatment externalities.* Econometrica, 72(1):159–217, 2004.
