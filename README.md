@@ -4,7 +4,7 @@ This repository contains empirical application code and estimator construction f
 ## Overview
 We separate the scripts into three categories:
 
-1. Data preparation (`data_prep.py`, `data_prep\_baranov.py`, `data_prep_deworming.py`): each corresponding file loads the data set, and maps it to treatment $D$, selection $S$, outcome $Y$, covariates $X$, weights and clusters.
+1. Data preparation (`data_prep.py`, `data_prep_baranov.py`, `data_prep_deworming.py`): each corresponding file loads the data set, and maps it to treatment $D$, selection $S$, outcome $Y$, covariates $X$, weights and clusters.
 2. Estimation (`estimator.py`, `lp_bounds.py`): the first file includes the first stage estimation, the cross-fitted localized one-step estimator, and inference; the second file computes the classical Lee bounds, exact marginal (no-covariate) bounds, and the discrete LP heuristic of Section 2.3.
 3. Runner scripts denoted as `run_*.py` create and store the results from the paper. The following table is a short summary.
 
