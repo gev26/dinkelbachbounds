@@ -14,7 +14,7 @@ We separate the scripts into three categories:
 |`run_table2.py` | JobCorps discrete-heuristic LP bounds by number of wage bins | `table2_lp_granularity.csv` | Table 3 (Sections 2.3, 3.2) |
 |`run_baranov.py` | THP: ITT, Lee, exact marginal and covariate bounds for every outcome | `baranov_bounds.csv` | Tables 8A, 9 (Section 9) |
 |`run_deworming.py` | Deworming: ITT, Lee, exact marginal and covariate bounds; share bounds by specification |`deworming_bounds.csv`, `deworming_table1.csv` | Tables 8C, 11 (Section 9) |
-|`run\_app\_tables.py` | THP analogues of Tables 1 and 3 | `app\_table1\_analogues.csv`, `app_table3_analogues.csv` | not in the paper 
+|`run_app_tables.py` | THP analogues of Tables 1 and 3 | `app_table1_analogues.csv`, `app_table3_analogues.csv` | not in the paper 
 
 ## How to run the code
 Each runner script starts from the folder that contains the scripts, e.g. `python run_section8.py`. All runner scripts create and write to `../results/`, a path relative to the *working* directory. Note that the data paths are computer-dependent, stored in the data-preparation modules (`DATA_PATH`, `CSV`), and therefore must be edited once the files are run on another computer. Approximate running times on a M1 MacBook Pro: `run_section8.py` about 30 minutes (of which Table 1 bands with Lee's 28 covariates take about 23), `run_table2.py` under one minute, `run_deworming.py` about 40 seconds.
