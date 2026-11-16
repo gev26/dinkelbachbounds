@@ -1,5 +1,5 @@
 # dinkelbachbounds
-This repository contains empirical application code and estimator construction for the paper "Partial Identification and Estimation in a Class of Potential Outcomes Models: A Convex-Fractional Approach". Applications include JobCorps (Lee, 2009, Section 8), and Thinking Healthy Program (THP, Baranov et al., 2020) and the Primary School Deworming Project (Miguel and Kremer, 2004, Section 9). Some implementation choices are recorded in the file `ASSUMPTIONS.md`. More detailed instructions are available in the file `dinkelbach_codeguide.pdf`.
+This repository contains empirical application code and estimator construction for the paper "Partial Identification and Estimation in a Class of Potential Outcomes Models: A Convex-Fractional Approach". Applications include JobCorps (Lee, 2009, Section 8), Thinking Healthy Program (THP, Baranov et al., 2020) and the Primary School Deworming Project (Miguel and Kremer, 2004, Section 9). Some implementation choices are recorded in the file `ASSUMPTIONS.md`. More detailed instructions are available in the file `dinkelbach_codeguide.pdf`.
 
 ## Overview
 We separate the scripts into three categories:
